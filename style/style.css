@@ -1,7 +1,12 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
+
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'roboto' sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 button {
@@ -26,6 +31,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 20px;
 }
 
@@ -35,7 +41,7 @@ a {
     width: 1200px;
     font-size: 24px;
     color: #F9FAF8;
-    font-weight: 600;
+    font-style: bold;
     margin-bottom: 20px;
 }
 
@@ -70,7 +76,7 @@ a {
 .hero h1 {
     flex: auto;
     font-size: 48px;
-    font-family: "extra-bold" sans-serif;
+    font-style: bold;
 }
 .hero p {
     font-size: 18px;
@@ -80,7 +86,7 @@ a {
 
 .pictures {
     background-color:#F9FAF8;
-    color: black;
+    color:#1f2937;
     text-align: center;
     font-size: 18px;
 }
@@ -101,4 +107,63 @@ a {
 }
 .pictures_container div {
     max-width: 214px;
+}
+
+/* Inspiring quote section */
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    font-style: italic;
+    color: #1f2937;
+    padding: 80px 0;
+}
+
+.quote div {
+    max-width: 700;
+}
+.quote p {
+    font-size: 18px;
+}
+.quote h4 {
+    text-align: end;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* Call to action section */
+
+.call_to_action {
+    background-color:#F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.call_to_action .container {
+    width: 700px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.call_to_action button {
+    padding: 12px 25px;
+    border: 3px solid #F9FAF8;
+}
+/* footer */
+.footer {
+    background-color: #1f2937;
+    padding: 20px;
+    text-align: center;
+}
+.footer p {
+    color: #e5e7eb;
+    font-size: 18px;
 }
